@@ -2,15 +2,53 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-
-    html {
-        font-size: 62.5%;
-    }
-    
-    body {
-        padding: 0.2rem;
-    }
-    
 }
 
+@font-face {
+  font-family: lcd;
+  src: url(../font/SUBWT___.ttf);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding: 0.2rem;
+}
+
+button {
+    width: 24.25%;
+    font-size: 5rem;
+    border-radius: 0.5rem;
+    height: 8rem;
+    color: black;
+}
+
+.operator, .clear, .enter, .comma{
+    color: #00BFFF;
+}
+
+.clear {
+    width: 99%;
+}
+
+input{
+    width: 99%;
+    font-size: 5rem;
+    margin-bottom:10px;
+    background-color: black;
+    color: green;
+    text-align: right;
+    padding: 10px 4px 10px 4px;
+    font-family: lcd;
+    border: 1px solid yellow;
+    border-radius:4px;
+}
+
+
+@media (min-width: 767px) {
+    body {
+        width: 40rem;
+    }
+}
